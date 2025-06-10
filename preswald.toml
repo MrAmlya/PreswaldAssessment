@@ -1,0 +1,20 @@
+[project]
+title = "Amol Bhadane Price Tracker Project"
+version = "0.1.0"
+port = 8501
+slug = "{project_slug}"
+entrypoint = "hello.py"
+
+[branding]
+name = "Amol Bhadane Price Tracker Project"
+logo = "images/cloudy.png"
+favicon = "images/cloudy.ico"
+primaryColor = "#F89613"
+
+[data.sample_csv]
+type = "csv"
+path = "data/sample.csv"
+
+[logging]
+level = "INFO"
+format = "%(asctime)s - %(name)s - %(levelname)s - %(message)s" 
